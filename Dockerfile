@@ -1,9 +1,9 @@
 # Based on manual compile instructions at http://wiki.nginx.org/HttpLuaModule#Installation
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
-ENV VER_NGINX_DEVEL_KIT=0.2.19
-ENV VER_LUA_NGINX_MODULE=0.9.16
-ENV VER_NGINX=1.7.10
+ENV VER_NGINX_DEVEL_KIT=0.3.0
+ENV VER_LUA_NGINX_MODULE=0.10.8
+ENV VER_NGINX=1.11.2
 ENV VER_LUAJIT=2.0.4
 
 ENV NGINX_DEVEL_KIT ngx_devel_kit-${VER_NGINX_DEVEL_KIT}
